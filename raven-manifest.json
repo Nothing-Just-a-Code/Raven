@@ -1,1 +1,15 @@
-
+{
+  "version": "1.1.0",
+  "releaseDate": "2026-10-15T00:00:00Z",
+  "minVersion": "1.0.0",
+  "releaseNotes": "Test update.\nAdded new features.\nFixed bugs.",
+  "hashAlgorithm": "blake3",
+  "files": [
+    {
+      "path": "Raven.exe",
+      "hash": "fake_hash_placeholder",
+      "size": 4521984,
+      "url": "https://example.com/Raven.exe"
+    }
+  ]
+}
