@@ -66,15 +66,13 @@ It runs quietly in the system tray, captures downloads from Firefox, and keeps e
 
 | Main Window | Download Dialog |
 |:---:|:---:|
-| *placeholder* | *placeholder* |
+| <img src="https://i.ibb.co/Qj1PGvpt/image.png"/> | <img src="https://i.ibb.co/sdnBFqyj/image.png"/> |
 
-| Settings | Update Available |
-|:---:|:---:|
-| *placeholder* | *placeholder* |
+| Settings |
+|:---:|
+| <img src="https://i.ibb.co/QvKgG46k/image.png"/> |
 
 </div>
-
-> Replace the placeholder images above with real screenshots before publishing.
 
 ---
 
@@ -88,12 +86,10 @@ It runs quietly in the system tray, captures downloads from Firefox, and keeps e
 
 ### Steps
 
-1. Download the latest `RavenSetup.exe` from the [Releases page](https://github.com/Nothing-Just-a-Code/Raven/releases/latest).
+1. Download the latest `Raven.exe` from the [Releases page](https://github.com/Nothing-Just-a-Code/Raven/releases/latest).
 2. Run the installer and follow the prompts.
 3. Optionally install the browser extension during setup (recommended).
 4. Launch Raven from the Start Menu or system tray.
-
-Raven installs to `C:\Program Files\Raven\`. Settings and data live in `%AppData%\Raven\`.
 
 ### Browser Extension
 
@@ -108,17 +104,15 @@ The installer offers to install the Firefox extension automatically. For manual 
 
 On first launch, Raven:
 
-1. Creates its data folder at `%AppData%\Raven\`
-2. Runs database migrations
-3. Registers the native messaging host for your browsers
-4. Detects available categories and default save folders
+
+1. Registers the native messaging host for your browsers
+2. Detects available categories and default save folders
 
 You'll see the main window with an empty downloads list. Start a download by:
 
 - Clicking the **+** button in the ribbon
 - Right-clicking any link in your browser and choosing **Download with Raven**
 - Copying a URL — Raven will offer to download it
-- Dragging a link onto the Raven window
 
 ---
 
@@ -135,15 +129,13 @@ Raven ships with sensible defaults. Everything is configurable from **Settings**
 | **Behavior** | Startup, tray, clipboard, desktop shortcuts |
 | **Advanced** | User agent, log level, update channel |
 
-Settings are stored at `%AppData%\Raven\user-settings.json`.
-
 ---
 
 ## Updates
 
 Raven checks for updates automatically on startup. When a new version is available, a dialog shows the release notes and total download size. Only the files that changed are downloaded — typically a few hundred kilobytes rather than the full installer.
 
-You can disable automatic checks in **Settings → Advanced**, or trigger a manual check at any time.
+You can disable automatic checks in **Settings → Updates**
 
 ---
 
